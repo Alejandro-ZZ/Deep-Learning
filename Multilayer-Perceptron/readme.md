@@ -22,4 +22,5 @@
     * Four different model are implemented and compared.
     * Learning curves are analyzed to improve the model performance.
     * Used of *Dropout* layers and weight *regularizers*.
-
+    * Implementation of [ReduceLROnPlateau](https://keras.io/api/callbacks/reduce_lr_on_plateau/) callback to reduce learning rate 
+    when a metric has stopped improving.
